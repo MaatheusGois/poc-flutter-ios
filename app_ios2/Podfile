@@ -2,16 +2,9 @@
 # platform :ios, '9.0'
 
 plugin 'cocoapods-embed-flutter'
-#flutter_application_path = '../../../warren/flutter-main-app'
-#load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 
 target 'app_ios2' do
   use_frameworks!
-  #pub 'flutter-main-app', :git => 'https://github.com/warrenbrasil/flutter-main-app.git'
-  #pub 'flutter-main-app', :path => '../../../warren/flutter-main-app'
-  #pub 'not_flutter_module', :git => 'https://github.com/m-ariani/not_flutter_module.git'
-  #pub 'not_flutter_module', :path => '../../../playground/not_flutter_module'
-  pub 'my_flutter_offshore', :git => 'https://github.pactual.net/portal-offshore/flutter-module-ios', :branch => 'master'
-  pub 'my_flutter', :path => '../my_flutter'
-  #install_all_flutter_pods(flutter_application_path)
+  pub 'my_flutter', :git => 'https://github.com/MaatheusGois/poc-flutter-ios', :branch => 'master'
+  # pub 'my_flutter', :path => '../my_flutter'
 end
