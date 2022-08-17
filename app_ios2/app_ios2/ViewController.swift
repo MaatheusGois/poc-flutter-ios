@@ -9,7 +9,7 @@ import UIKit
 import Flutter
 
 class ViewController: UIViewController {
-    
+
     @IBOutlet weak var flutterBtn: UIButton!
 
     override func viewDidLoad() {
@@ -17,12 +17,11 @@ class ViewController: UIViewController {
         flutterBtn.addTarget(self, action: #selector(showFlutter), for: .touchUpInside)
         self.view.addSubview(flutterBtn)
     }
-    
-    @IBAction @objc func showFlutter(){
+
+    @IBAction func showFlutter() {
         let flutterEngine = (UIApplication.shared.delegate as! AppDelegate).flutterEngine
         let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
 //        flutterViewController.modalPresentationStyle = .fullScreen
-        present(flutterViewController, animated: true, completion: nil)
+        navigationController?.present(flutterViewController, animated: true)
     }
-
 }

@@ -2,27 +2,27 @@ PODS:
   - Flutter (1.0.0)
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
-  - my_flutter (0.0.1):
+  - my_flutter_offshore (0.0.1):
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `Pods/my_flutter/my_flutter/.ios/Flutter/engine`)
-  - FlutterPluginRegistrant (from `Pods/my_flutter/my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
-  - my_flutter (from `Pods/my_flutter/my_flutter/.ios/Flutter`)
+  - Flutter (from `Pods/my_flutter_offshore/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `Pods/my_flutter_offshore/.ios/Flutter/FlutterPluginRegistrant`)
+  - my_flutter_offshore (from `Pods/my_flutter_offshore/.ios/Flutter`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: Pods/my_flutter/my_flutter/.ios/Flutter/engine
+    :path: Pods/my_flutter_offshore/.ios/Flutter/engine
   FlutterPluginRegistrant:
-    :path: Pods/my_flutter/my_flutter/.ios/Flutter/FlutterPluginRegistrant
-  my_flutter:
-    :path: Pods/my_flutter/my_flutter/.ios/Flutter
+    :path: Pods/my_flutter_offshore/.ios/Flutter/FlutterPluginRegistrant
+  my_flutter_offshore:
+    :path: Pods/my_flutter_offshore/.ios/Flutter
 
 SPEC CHECKSUMS:
   Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
   FlutterPluginRegistrant: d3a0fbc12bc47787a12fcc919193f3959aa7d5ad
-  my_flutter: 5f71a42a61a499a9f322f2c0f62fc185a5807c9b
+  my_flutter_offshore: ed0d4d688bbb463f34d459fcdb9475daa2211ab0
 
-PODFILE CHECKSUM: 2afe5416001e0fb0b0eaef8d8278c924eaadbf41
+PODFILE CHECKSUM: 42635d49aa2ed28f45f7b9012d87fb335c136f13
 
 COCOAPODS: 1.11.3

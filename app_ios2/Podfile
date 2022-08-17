@@ -5,6 +5,6 @@ plugin 'cocoapods-embed-flutter'
 
 target 'app_ios2' do
   use_frameworks!
-  pub 'my_flutter', :git => 'https://github.com/MaatheusGois/poc-flutter-ios', :branch => 'master'
+  pub 'my_flutter_offshore', :git => 'https://github.pactual.net/portal-offshore/flutter-module-ios', :branch => 'try/2'
   # pub 'my_flutter', :path => '../my_flutter'
 end

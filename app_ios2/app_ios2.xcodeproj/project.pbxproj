@@ -100,7 +100,7 @@
 			buildConfigurationList = 357D886027F37D3300B1CE6E /* Build configuration list for PBXNativeTarget "app_ios2" */;
 			buildPhases = (
 				C6E0354793EEC0532BBF43AC /* [CP] Check Pods Manifest.lock */,
-				90ABAF943BAC05268A025FFC /* [CP-User] Run Flutter Build my_flutter Script */,
+				154A9B2EB16AEE1BA7668D20 /* [CP-User] Run Flutter Build my_flutter_offshore Script */,
 				357D884827F37D3300B1CE6E /* Sources */,
 				357D884927F37D3300B1CE6E /* Frameworks */,
 				357D884A27F37D3300B1CE6E /* Resources */,
@@ -162,6 +162,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		154A9B2EB16AEE1BA7668D20 /* [CP-User] Run Flutter Build my_flutter_offshore Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build my_flutter_offshore Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/Pods/my_flutter_offshore/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
 		24594C3F7F641A8541D3E683 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,16 +188,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-app_ios2/Pods-app_ios2-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		90ABAF943BAC05268A025FFC /* [CP-User] Run Flutter Build my_flutter Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Run Flutter Build my_flutter Script";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/Pods/my_flutter/my_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
 		};
 		C6E0354793EEC0532BBF43AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
